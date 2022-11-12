@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - master
-    paths: "packages/container/**"
-    paths: ".github/workflows/*"
+    paths:
+      - "packages/container/**"
+      - ".github/workflows/*"
 
 defaults:
   run:

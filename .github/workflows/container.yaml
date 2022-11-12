@@ -5,6 +5,7 @@ on:
     branches:
       - master
     paths: "packages/container/**"
+    paths: ".github/workflows/*"
 
 defaults:
   run:
